@@ -613,6 +613,9 @@ input[type="button"]::-moz-focus-inner {
 	justify-content: flex-end;
 	align-self: flex-end;
   }
+  .product-tab a.active{
+	  color: #04a6f2;
+  }
   .product-content {
 	background-color: #fff;
 	padding: 15px 25px;
@@ -818,7 +821,7 @@ input[type="button"]::-moz-focus-inner {
 		color: #fff;
 	  }
 	  .product-tab a {
-		font-size: 15px;
+		font-size: 14px;
 		padding: 5px 10px;
 	  }
 	  .btn-brand{
