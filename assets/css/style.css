@@ -772,4 +772,13 @@ input[type="button"]::-moz-focus-inner {
 	border-right: none;
 	padding-right: 0;
   }
+  .product-grid:hover::before{
+    background-color: rgba(225, 215, 35, 0.37);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+	z-index:1;
+}
 /* Categories End */
