@@ -168,6 +168,7 @@ input[type="button"]::-moz-focus-inner {
 #middle-header .header-search .form-control {
 	min-width: 100%;
 	padding: 15px 15px;
+	font-size: 14px;
 	border-radius: 5rem 5rem 5rem 5rem;
 	background: #f4f4f4;
 	border: 1px solid #ced4da !important;
@@ -782,3 +783,46 @@ input[type="button"]::-moz-focus-inner {
 	z-index:1;
 }
 /* Categories End */
+/* Breakpoint SM */
+@media (min-width: 300px) and (max-width: 570px) {
+	.banner-section {
+		padding-bottom: 70px;
+		background: url('../images/watch.png'), #6DB3F2;
+	  }
+	  .banner-section::before {
+		background-color: #b8cd06ed;
+		content: '';
+		display: block;
+		height: 100%;
+		position: absolute;
+		width: 100%;
+	  }
+	  .banner-section h1 {
+		font-size: 32px;
+		font-weight: 700;
+		color: #fff;
+		line-height: 32px;
+	  }
+	  .banner-section p {
+		  color: #343233;
+		  font-weight: 500;
+		  font-size: 14px;
+	  }
+	  .banner-offer-price {
+		color: #343233;
+		font-size: 18px;
+		line-height: 30px;
+		font-weight: 600;
+	  }
+	  .best-price {
+		color: #fff;
+	  }
+	  .product-tab a {
+		font-size: 15px;
+		padding: 5px 10px;
+	  }
+	  .btn-brand{
+		border: solid 1px #ffd723;
+		background: #ffd723;		  
+	  }
+}
