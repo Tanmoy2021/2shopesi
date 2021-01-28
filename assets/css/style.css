@@ -294,8 +294,25 @@ input[type="button"]::-moz-focus-inner {
  } 
  .navbar .dropdown-menu {
    border:none;
-   background-color:#0060c8!important;
  }
+ .menu-sec .dropdown-header {
+    font-size: 13px;
+	color: #000;
+	text-transform: uppercase;
+	white-space: nowrap;
+	position: relative;
+}
+.menu-sec .dropdown-header::after{
+	content: "";
+    position: absolute;
+    border-bottom: 1px solid #000;
+    width: 50%;
+    bottom: 0px;
+    left: 16px;
+}
+.menu-sec .mainnav .dropdown-menu .dropdown-item{
+	font-size: 13px;	
+}
  
  /* breakpoint and up - mega dropdown styles */
  @media screen and (min-width: 992px) {
@@ -345,7 +362,7 @@ input[type="button"]::-moz-focus-inner {
  @media (min-width: 992px){
 	.navbar-expand-lg .navbar-nav .dropdown-menu-left {
 		right: auto;
-		left: 0;
+		left: auto;
 	}
  }
  .nav-fill .nav-item {
