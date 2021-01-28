@@ -537,10 +537,11 @@ input[type="button"]::-moz-focus-inner {
 	font-weight: 500;
   }
   .catagory-deals {
-	min-height: 318px;
+	margin-bottom: 20px;
+	min-height: 330px;
   }
   .catagory-deals h3 {
-	font-size: 18px;
+	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: 800;
 	color: #b8cd06;
@@ -552,14 +553,32 @@ input[type="button"]::-moz-focus-inner {
 	font-weight: 900;
 	color: #5d5d5d;
   }
+  .catagory-deals p {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #5d5d5d;
+  }
   .catagory-deals .price {
 	text-transform: uppercase;
 	padding-bottom: 20px;
 	font-size: 18px;
+	font-weight: 600;
   }
   .catagory-deals .price span {
 	font-size: 18px;
 	padding-left: 10px;
+  }
+  .catagory-deals .banner-offer-price {
+	color: #d83135;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	font-family: sans-serif;
+	font-style: italic;
+  }
+  .catagory-deals img{
+	  width: 100%;
   }
   .product-grid {
 	position: relative;
