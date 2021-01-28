@@ -279,6 +279,15 @@ input[type="button"]::-moz-focus-inner {
   font-weight: 600;
   line-height: 20px;
 }
+.menu-sec .mainnav li.nav-item.active a.nav-link{
+	color: #ffd723;
+}
+.menu-sec .mainnav li.nav-item:hover a.nav-link{
+	color: #ffd723;
+}
+.menu-sec .mainnav li.nav-item:last-child a.nav-link{
+	color: #ffd723;
+}
 /* adds some margin below the link sets  */
 .navbar .dropdown-menu div[class*="col"] {
 	margin-bottom:0;
@@ -318,11 +327,7 @@ input[type="button"]::-moz-focus-inner {
    opacity: 0;
    transition: visibility 0s, opacity 0.3s linear;
    
- }
-   
-  
- 
-   
+ }   
    /* shows the dropdown menu on hover */
  .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
    display:block;
@@ -345,6 +350,10 @@ input[type="button"]::-moz-focus-inner {
  }
  .nav-fill .nav-item {
     text-align: left;
+}
+.menu-sec .navbar-toggler{
+	border-color: #ffd723;
+	background-color: #ffd723;
 }
 
 /* Navigation End */
