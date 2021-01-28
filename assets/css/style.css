@@ -273,7 +273,7 @@ input[type="button"]::-moz-focus-inner {
 .menu-sec .mainnav li.nav-item a.nav-link {
 	color: #fff;
   text-transform: uppercase;
-  padding: 9px 5px;
+  padding: 9px 4px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -663,7 +663,6 @@ input[type="button"]::-moz-focus-inner {
 @media (min-width: 300px) and (max-width: 570px) {
 	.banner-section {
 		padding-bottom: 70px;
-		background: url('../images/watch.png'), #6DB3F2;
 	  }
 	  .banner-section::before {
 		background-color: #b8cd06ed;
@@ -700,5 +699,10 @@ input[type="button"]::-moz-focus-inner {
 	  .btn-brand{
 		border: solid 1px #ffd723;
 		background: #ffd723;		  
+	  }
+}
+@media (min-width: 571px) and (max-width: 680px) {
+	.banner-section {
+		padding-bottom: 70px;
 	  }
 }
